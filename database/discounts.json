@@ -1,0 +1,58 @@
+[
+    
+    {
+        "type": 1,
+        "keywords" : ["43N23P"],
+        "rule": {
+            "startDate": "2022-01-31T15:04:05+07:00",
+            "endDate": "2022-05-31T15:04:05+07:00",
+            "accumulative": true,
+            "itemValue": {
+                "43N23P": {
+                    "min": 1,
+                    "max": 1
+                },
+                "234234": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "amountType": 3,
+            "amount": 30.00   
+        }
+    },
+    {
+        "type": 2,
+        "keywords" : ["120P90"],
+        "rule": {
+            "startDate": "2022-01-31T15:04:05+07:00",
+            "endDate": "2022-05-31T15:04:05+07:00",
+            "accumulative": false,
+            "itemValue": {
+                "120P90": {
+                    "min": 3,
+                    "max": 3
+                }
+            }
+        },
+        "amountType": 2,
+        "amount": 49.99
+    },
+    {
+        "type": 2,
+        "keywords" : ["A304SD"],
+        "rule": {
+            "startDate": "2022-01-31T15:04:05+07:00",
+            "endDate": "2022-05-31T15:04:05+07:00",
+            "accumulative": false,
+            "itemValue": {
+                "A304SD": {
+                    "min": 3,
+                    "max": 0
+                }
+            }
+        },
+        "amountType": 1,
+        "amount": 10
+    }
+]

@@ -1,0 +1,9 @@
+mutation Checkout {
+    checkout(productSKUs: ["120P90","120P90","120P90"]) {
+        products,
+        finalProducts,
+        discounts,
+        totalBasePrice,
+        finalPrice
+    }
+}

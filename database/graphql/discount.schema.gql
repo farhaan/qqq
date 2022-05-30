@@ -1,0 +1,18 @@
+type Rule {
+  accumulative: Boolean
+  amount: Int
+  amountType: Int
+  endDate: DateTime
+  itemValue: JSON
+  startDate: DateTime
+}
+
+type Discount {
+  keywords: [String]
+  rule: Rule
+  type: Int
+}
+
+type Root {
+  discounts: [Discount]
+}
