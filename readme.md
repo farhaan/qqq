@@ -1,6 +1,6 @@
-# Foobar
+# Checkout System
 
-Foobar is a Python library for dealing with word pluralization.
+This repository is a checkout system 
 
 ## Installation
 
@@ -8,7 +8,7 @@ Install go first using homebrew or by downloading go installation file.
 
 Clone this repository by using
 ```bash
-git clone ...
+git clone git@github.com:farhaan/qqq.git
 ```
 
 Run go mod dependencies
